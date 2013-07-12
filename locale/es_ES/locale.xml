@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../locale/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2008 Richard González Alberto
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for this citation plugin in es_ES.
+  *
+  -->
+
+<locale name="es_ES" full_name="Español (España)">
+	<message key="plugins.citationFormats.vancouver.displayName">Complemento de Formato de Citas Vancouver</message>
+	<message key="plugins.citationFormats.vancouver.citationFormatName">Vancouver</message>
+	<message key="plugins.citationFormats.vancouver.description">Este complemento implementa el formato de citas Vancouver.</message>
+	<message key="plugins.citationFormats.vancouver.serialOnTheInternet">revista en Internet</message>
+	<message key="plugins.citationFormats.vancouver.cited">citado</message>
+	<message key="plugins.citationFormats.vancouver.about">aprox.</message>
+	<message key="plugins.citationFormats.vancouver.availableFrom">Disponible en</message>
+</locale>
