@@ -1,7 +1,7 @@
 {**
  * citation.tpl
  *
- * Copyright (c) 2008 Richard Gonz‡lez Alberto
+ * Copyright (c) 2008 Richard Gonzï¿½lez Alberto
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Article reading tools -- Capture Citation
@@ -21,6 +21,6 @@
 {assign var=datePublished value=$article->getDatePublished()|date_format:'%Y %b %e'}
 {assign var=dateNow value=$smarty.now|date_format:'%Y %b %e'}
 {$datePublished|capitalize}; [{translate key="plugins.citationFormats.vancouver.cited"} {$dateNow|capitalize}];
-{$issue->getVolume()}({$issue->getNumber()}):[{translate key="plugins.citationFormats.vancouver.about"} {$citationPlugin->getArticlePages($article->getPages())} p.].
+{$issue->getVolume()}({$issue->getNumber()}):[{translate key="plugins.citationFormats.vancouver.about"} {$article->getPages()} p.].
 {url|assign:"articleUrl" page="article" op="view" path=$article->getArticleId()}
 {translate key="plugins.citationFormats.vancouver.availableFrom"}: <a href="{$articleUrl}">{$articleUrl}</a>
