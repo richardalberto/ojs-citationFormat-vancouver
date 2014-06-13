@@ -3,7 +3,7 @@
 /**
  * @file VancouverCitationPlugin.inc.php
  *
- * Copyright (c) 2008 Richard Gonz‡lez Alberto
+ * Copyright (c) 2008 Richard Gonzï¿½lez Alberto
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class VancouverCitationPlugin
@@ -37,14 +37,7 @@ class VancouverCitationPlugin extends CitationPlugin {
 		return Locale::translate('plugins.citationFormats.vancouver.description');
 	}
 
-	/**
-	* number of pages in article
-	*
-	*/
-	function getArticlePages($articlePages){
-		$pages = explode("-", $articlePages);
-		return $pages[1]-$pages[0];
-	}
+	 
 	
 	/**
 	 * Heuristic to clean up author last names (turn 2nd last name into an initial)
